@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Webcam from "react-webcam";
+import LoginForm from "./LoginForm";
 
 export default function Home({ posterId, adminId }) {
   const [showForm, setShowForm] = useState(true);
